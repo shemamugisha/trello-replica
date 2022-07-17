@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main {
+    width: calc(100% - 40px);
+    margin-top: 44px;
+    margin-left: 40px;
+}
+
+.linear {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
+}
+
+.linear:hover {
+    background-image: none;
+}
+
+.card-container {
+    height: calc(100vh - 142px);
+}
+
+.listCard-container {
+    max-height: calc(100vh - 180px);
+}
+
+input[type='search'] {
+    /* appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px; */
+    color: #000000;
+}
+
+input,
+input::placeholder {
+    font-size: 14px;
+}
