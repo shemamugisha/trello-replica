@@ -31,6 +31,7 @@ module.exports = {
             rules: {
                 'react/prop-types': 'off',
                 'react/no-unescaped-entities': 'off',
+                '@typescript-eslint/explicit-function-return-type': 'off',
                 'react/react-in-jsx-scope': 'off',
                 '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', ignoreRestSiblings: false }],
                 'no-nested-ternary': 'off',
@@ -38,6 +39,7 @@ module.exports = {
                 'react/no-children-prop': 'off',
                 'react/display-name': 'off',
                 'no-self-assign': 'off',
+                '@typescript-eslint/no-non-null-assertion': 'off',
                 '@typescript-eslint/explicit-function-return-type': [
                     'warn',
                     {
