@@ -42,7 +42,7 @@ To start the application run the command below
 > `yarn start`
 
 ### Demo
-https://trello-replica-challenge.netlify.app/
+http://trello-replica-challenge.vercel.app/
 
 # Author
 
